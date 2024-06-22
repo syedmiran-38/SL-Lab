@@ -47,6 +47,7 @@ By completing these experiments, students will acquire the following skills:
 
 ## About the Author
 
+![Syed Miran Hussain](https://github.com/syedmiran-38.png?size=100)
 Hi, I'm [Syed Miran Hussain](https://github.com/syedmiran-38), a beta Microsoft Learn Student Ambassador (MLSA) and data analyst with a passion for technology and web development. I've worked on numerous projects leveraging data analytics and web technologies to solve real-world problems.
 
 ## Acknowledgements
