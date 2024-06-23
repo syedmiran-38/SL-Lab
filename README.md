@@ -27,6 +27,45 @@ CSS is essential for creating visually appealing web pages. It allows developers
 - **Internal CSS**: Defined within a `<style>` tag inside the `<head>` section of an HTML document.
 - **External CSS**: Stored in a separate `.css` file and linked to the HTML document.
 
+### Experiment 4: JavaScript Popup Boxes
+This experiment consists of four parts, each demonstrating different uses of JavaScript popup boxes: Alert, Confirm, and Prompt.
+
+#### Part 1: Display Date in Textbox
+This part focuses on displaying the current date in a textbox when a button is clicked.
+
+**File name**: `display_date.html`
+
+#### Description
+
+JavaScript provides the ability to manipulate date and time. In this experiment, we create a function that retrieves the current date and displays it in a textbox when a button is clicked.
+
+#### Part 2: Factorial Calculation
+This part calculates the factorial of a number provided by the user through a prompt and displays the result using an alert box.
+
+**File name**: `factorial.html`
+
+#### Description
+
+JavaScript can perform arithmetic operations and control structures like loops. In this experiment, a prompt is used to get a number from the user, and a loop calculates its factorial, which is then displayed using an alert box.
+
+#### Part 3: Multiplication Table
+This part generates a multiplication table for a number provided by the user and displays the result using an alert box.
+
+**File name**: `multiplication_table.html`
+
+#### Description
+
+JavaScript loops are useful for repetitive tasks. Here, a prompt is used to get a number, and a loop generates its multiplication table, displaying the results in an alert box.
+
+#### Part 4: Sum of n Numbers Using Popup Boxes
+This part calculates the sum of a series of numbers provided by the user through a series of prompts and displays the result using an alert box.
+
+**File name**: `sum_of_numbers.html`
+
+#### Description
+
+JavaScript's ability to handle user input through prompts and confirm boxes is showcased in this experiment. Users are prompted to enter numbers, and they can choose to continue entering numbers or stop. The sum of all entered numbers is displayed using an alert box.
+
 ## Lessons Learned
 
 Through these experiments, students will learn:
@@ -35,6 +74,8 @@ Through these experiments, students will learn:
 - The importance of input validation for user data security and integrity.
 - Different methods to apply CSS styles and their respective use cases.
 - The benefits and drawbacks of inline, internal, and external CSS.
+- How to manipulate dates and perform arithmetic operations in JavaScript.
+- Using prompts and alerts to interact with users and display results.
 
 ## Skills Acquired
 
@@ -44,6 +85,8 @@ By completing these experiments, students will acquire the following skills:
 - Understanding and application of regular expressions.
 - Ability to create and link CSS files for styling web pages.
 - Knowledge of best practices in web design and development.
+- Skills in manipulating dates and performing arithmetic operations in JavaScript.
+- Experience with using prompts and alerts to interact with users.
 
 ## About the Author
 
