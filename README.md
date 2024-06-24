@@ -66,6 +66,16 @@ This part calculates the sum of a series of numbers provided by the user through
 
 JavaScript's ability to handle user input through prompts and confirm boxes is showcased in this experiment. Users are prompted to enter numbers, and they can choose to continue entering numbers or stop. The sum of all entered numbers is displayed using an alert box.
 
+
+### Experiment 5: Country and Capital Selection
+This experiment creates an HTML page with a selection box containing a list of 5 countries. When a user selects a country, its capital is displayed next to the list. CSS is used to customize the properties of the font of the capital (color, bold, and font size).
+
+**File name**: `countries.html`
+
+#### Description
+
+The `<select>` element is used to create a drop-down list in HTML. It is commonly used in forms to collect user input. The `<option>` tags inside the `<select>` element define the available options in the drop-down list. In this experiment, JavaScript is used to display the capital of a selected country in a styled manner using CSS.
+
 ## Lessons Learned
 
 Through these experiments, students will learn:
@@ -76,6 +86,7 @@ Through these experiments, students will learn:
 - The benefits and drawbacks of inline, internal, and external CSS.
 - How to manipulate dates and perform arithmetic operations in JavaScript.
 - Using prompts and alerts to interact with users and display results.
+- Creating interactive and dynamic web pages using HTML, CSS, and JavaScript.
 
 ## Skills Acquired
 
@@ -87,6 +98,7 @@ By completing these experiments, students will acquire the following skills:
 - Knowledge of best practices in web design and development.
 - Skills in manipulating dates and performing arithmetic operations in JavaScript.
 - Experience with using prompts and alerts to interact with users.
+- Developing interactive web pages with dynamic content.
 
 ## About the Author
 
