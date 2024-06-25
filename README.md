@@ -76,6 +76,15 @@ This experiment creates an HTML page with a selection box containing a list of 5
 
 The `<select>` element is used to create a drop-down list in HTML. It is commonly used in forms to collect user input. The `<option>` tags inside the `<select>` element define the available options in the drop-down list. In this experiment, JavaScript is used to display the capital of a selected country in a styled manner using CSS.
 
+### Experiment 6: Number to Words Conversion
+This experiment creates an HTML page that allows users to input a number and converts the number to its word representation. The result is displayed with customized font properties using CSS.
+
+**File name**: `number_to_words.html`
+
+#### Description
+
+JavaScript can be used to perform various transformations and calculations on data input by users. In this experiment, an HTML page is designed with a text input for numbers and a button to trigger the conversion. JavaScript is used to convert the number into words, and CSS is used to style the resulting text. The conversion handles numbers up to 3 digits and displays them in a formatted manner.
+
 ## Lessons Learned
 
 Through these experiments, students will learn:
@@ -87,6 +96,7 @@ Through these experiments, students will learn:
 - How to manipulate dates and perform arithmetic operations in JavaScript.
 - Using prompts and alerts to interact with users and display results.
 - Creating interactive and dynamic web pages using HTML, CSS, and JavaScript.
+- Converting numbers to their word representations using JavaScript.
 
 ## Skills Acquired
 
@@ -99,6 +109,7 @@ By completing these experiments, students will acquire the following skills:
 - Skills in manipulating dates and performing arithmetic operations in JavaScript.
 - Experience with using prompts and alerts to interact with users.
 - Developing interactive web pages with dynamic content.
+- Converting numeric inputs to word representations using JavaScript.
 
 ## About the Author
 
