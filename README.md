@@ -85,6 +85,18 @@ This experiment creates an HTML page that allows users to input a number and con
 
 JavaScript can be used to perform various transformations and calculations on data input by users. In this experiment, an HTML page is designed with a text input for numbers and a button to trigger the conversion. JavaScript is used to convert the number into words, and CSS is used to style the resulting text. The conversion handles numbers up to 3 digits and displays them in a formatted manner.
 
+### Experiment 7: PHP Sum of Digits and Palindrome Check
+This experiment includes two parts: one that calculates the sum of digits of a number and another that checks if a number is a palindrome using PHP.
+
+**File name**: `sum_and_palindrome.php`
+
+#### Description
+
+PHP is a server-side scripting language used for web development. This experiment demonstrates two common operations in PHP:
+
+- **Sum of Digits**: The first part calculates the sum of digits of a given number. This is done by extracting each digit using a loop and summing them up.
+- **Palindrome Check**: The second part checks whether a given number is a palindrome. A palindrome is a number that reads the same backward as forward. The function reverses the number and compares it to the original to determine if it is a palindrome.
+
 ## Lessons Learned
 
 Through these experiments, students will learn:
@@ -97,6 +109,7 @@ Through these experiments, students will learn:
 - Using prompts and alerts to interact with users and display results.
 - Creating interactive and dynamic web pages using HTML, CSS, and JavaScript.
 - Converting numbers to their word representations using JavaScript.
+- Performing common operations in PHP, such as summing digits and checking for palindromes.
 
 ## Skills Acquired
 
@@ -110,6 +123,7 @@ By completing these experiments, students will acquire the following skills:
 - Experience with using prompts and alerts to interact with users.
 - Developing interactive web pages with dynamic content.
 - Converting numeric inputs to word representations using JavaScript.
+- Performing server-side scripting with PHP for common tasks.
 
 ## About the Author
 
