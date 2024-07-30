@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Web Application</title>
+    <style>
+        form {
+            max-width: 400px; 
+            margin: 10% auto;
+        }
+
+
+        form input {
+            width: 100%; 
+            padding: 5px 10px; 
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <form action="submit.php" method="post">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
+
+
+Submit.php
+<?php
+session_start();
+
+
+// Ensure the name field is set
+if (isset($_POST['name'])) {
+    // Sanitize and store the name in a session variable
+    $name = htmlspecialchars($_POST['name']);
+    $_SESSION['name'] = $name;
+    $_SESSION['start'] = time();
+
+
+    // Redirect to the welcome page or any other page
+    header('Location: welcome.php');
+    exit();
+} else {
+    // Redirect back to the form if no name was provided
+    header('Location: index.html');
+    exit();
+}
+?>
+
+
+Welcome.php
+<?php
+session_start();
+
+
+// Ensure the session has started and the name is set
+if (!isset($_SESSION['name'])) {
+    header('Location: index.html');
+    exit();
+}
+
+
+date_default_timezone_set('Asia/Kolkata');
+
+
+$name = $_SESSION['name'];
+$starttime = $_SESSION['start'];
+?>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Welcome</title>
+    <style>
+        .container {
+            max-width: 600px;
+            margin: 5% auto;
+            text-align: center;
+        }
+
+
+        .logout-form {
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p>Session started at <?php echo date('h:i:sa', $starttime); ?></p>
+        <form action="logout.php" method="post" class="logout-form">
+            <input type="submit" value="Logout">
+        </form>
+        <p>Hello, <?php echo htmlspecialchars($name); ?>!</p>
+    </div>
+</body>
+</html>
+
+
+Logout.php
+<?php
+session_start();
+
+
+// Destroy the session
+session_destroy();
+
+
+// Redirect to the form page
+header('Location: index.html');
+exit();
+?>
